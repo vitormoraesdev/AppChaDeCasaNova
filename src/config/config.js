@@ -1,0 +1,1 @@
+export const GOAL = 5000;

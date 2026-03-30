@@ -1,0 +1,18 @@
+@font-face{
+    font-family: "CasaNova";
+    src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+}
+
+*{
+box-sizing:border-box;
+}
+
+body{
+margin:0;
+font-family:"CasaNova", Arial, Helvetica, sans-serif;
+background:linear-gradient(135deg,#f5f3ff,#ede9fe);
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+}
