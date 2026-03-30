@@ -6,7 +6,9 @@ let lastTotal = 0
 
 async function loadTotal() {
   try {
-    const res = await fetch("http://localhost:3000/total")
+    const API = window.location.origin
+
+    const res = await fetch(`${API}/total`)
     const data = await res.json()
 
     if(data.total > lastTotal){

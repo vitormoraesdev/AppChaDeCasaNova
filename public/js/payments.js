@@ -1,5 +1,5 @@
 export async function createPayment(amount){
-  const response = await fetch("http://localhost:3000/create-payment",{
+  const response = await fetch(`${API}/create-payment`,{
     method:"POST",
     headers:{"Content-Type":"application/json"},
     body: JSON.stringify({ amount:Number(amount) })
